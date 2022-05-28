@@ -1,14 +1,17 @@
-// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// functions
 @import "../node_modules/bootstrap/scss/functions";
 
-// 2. Include any default variable overrides here
-$body-bg: #c0c0c0 !default;
+// ------------------------------- //
+// Set all variable defaults here. //
+// ------------------------------- //
+// 
+// default variable overrides
+$body-bg: #e0e0e0 !default;
 $body-color: #353535 !default;
-$body-text-align: null !default;
 
-// Color Variables.
+// default color variables.
 // ----------------
-$primary: #35a11a;
+$primary: #491aa1;
 // $secondary:  
 // $success: 
 // $info:   
@@ -18,55 +21,12 @@ $primary: #35a11a;
 // $dark:
 
 
-
-// Theme Colors - uncomment the whole block to use.
-// ------------------------------------------------
-// $theme-colors: (
-//   "primary":    $primary,
-//   "secondary":  $secondary,
-//   "success":    $success,
-//   "info":       $info,
-//   "warning":    $warning,
-//   "danger":     $danger,
-//   "light":      $light,
-//   "dark":       $dark
-// ) !default;
-
-
-// Grid breakpoints
-// ----------------
-// $grid-breakpoints: (
-//   xs: 0,
-//   sm: 576px,
-//   md: 768px,
-//   lg: 992px,
-//   xl: 1200px,
-//   xxl: 1400px
-// ) !default;
-
-
-// Style anchor elements.
-// ----------------------
-// $link-color: $primary  !default;
-// $link-decoration: underline !default;
-// $link-shade-percentage: 20% !default;
-// $link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
-// $link-hover-decoration: null !default;
-// $stretched-link-pseudo-element: after !default;
-// $stretched-link-z-index: 1 !default;
-
-// $border-width:                1px !default;
-// $border-color:                $gray-300 !default;
-
-
-
-
-// 3. Include remainder of required Bootstrap stylesheets
+// remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/utilities";
 
-// 4. Include any optional Bootstrap components as you like
+// optional Bootstrap components
 @import "../node_modules/bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
@@ -74,7 +34,6 @@ $primary: #35a11a;
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
 
-// 5. Additional custom code here
 @import "../node_modules/bootstrap/scss/tables";
 @import "../node_modules/bootstrap/scss/forms";
 @import "../node_modules/bootstrap/scss/buttons";
