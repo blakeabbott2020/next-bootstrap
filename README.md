@@ -1,14 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) & [React-Bootstrap](https://react-bootstrap.github.io/) project. It is a fully equiped template that uses ```create-next-app@latest sass react-bootstrap bootstrap```
 
 ## Getting Started
 
-First, run the development server:
-
+First, install the repo:
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/blakeabbott2020/next-bootstrap.git
 ```
+
+Next, 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
