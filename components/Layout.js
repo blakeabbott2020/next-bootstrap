@@ -6,9 +6,9 @@ export default function Layout({ children }) {
     return (
         <div>
             <Head>
-                <title>Next Bootstrap Template</title>
+                <title>Next-Bootstrap Template</title>
                 <meta charSet="utf-8" />
-                <meta name="keywords" content="nextjs, react-bootstrap, bootstrap, next-bootstrap, next-strap" />
+                <meta name="keywords" content="nextjs,reactjs,react-bootstrap,bootstrap,next-bootstrap,next-strap" />
                 <meta name="description" content="A simple next app with react-bootstrap and bootstrap" />
                 <meta name="author" content="Webb Designs" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
