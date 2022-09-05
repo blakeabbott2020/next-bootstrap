@@ -1,6 +1,4 @@
-import { Card, Table } from 'react-bootstrap'
-
-export default function Home() {
+export default function Index() {
     return (
         <div>
             <h1>Next-Bootstrap Template</h1>
