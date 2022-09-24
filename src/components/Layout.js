@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navigation from './Navigation'
+import Breadcrumbs from './Breadcrumbs'
 import Container from 'react-bootstrap/Container'
 
 export default function Layout({ children }) {
@@ -17,10 +18,10 @@ export default function Layout({ children }) {
 
             <Navigation />
 
-            <main className='mt-5'>
-                <Container>
-                    {children}
-                </Container>
+            <Breadcrumbs />
+
+            <main>
+                {children}
             </main>
         </div>
     )

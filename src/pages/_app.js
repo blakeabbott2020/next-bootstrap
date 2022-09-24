@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import '../styles/custom.scss'
+import '../../styles/custom.scss'
 
 
 function MyApp({ Component, pageProps }) {
