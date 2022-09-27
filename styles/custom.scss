@@ -22,8 +22,11 @@ $primary: #5733ab;
 
 // remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/helpers/";
+@import "../node_modules/bootstrap/scss/utilities/api";
 
 // optional Bootstrap components
 @import "../node_modules/bootstrap/scss/root";
@@ -57,9 +60,3 @@ $primary: #5733ab;
 @import "../node_modules/bootstrap/scss/carousel";
 @import "../node_modules/bootstrap/scss/spinners";
 @import "../node_modules/bootstrap/scss/offcanvas";
-
-// Helpers
-@import "../node_modules/bootstrap/scss/helpers/";
-
-// Utilities
-@import "../node_modules/bootstrap/scss/utilities/api";
