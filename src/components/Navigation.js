@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Navigation() {
     return (
-        <Navbar variant="dark" bg="primary" expand="lg" collapseOnSelect>
+        <Navbar variant="dark" bg="primary" expand="sm" collapseOnSelect>
             <Container>
                 <NavBrand href="/" text="Next-Bootstrap" />
 
