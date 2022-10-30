@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Navigation from './Navigation'
-import Breadcrumbs from './Breadcrumbs'
-import Container from 'react-bootstrap/Container'
+import Navigation from './Navigation.jsx'
+import Breadcrumbs from './Breadcrumbs.jsx'
 
 export default function Layout({ children }) {
     return (
@@ -16,10 +15,13 @@ export default function Layout({ children }) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
+            {/* Main Nav Bar */}
             <Navigation />
 
+            {/* URL breadcrumbs */}
             <Breadcrumbs />
 
+            {/* Main App Content */}
             <main>
                 {children}
             </main>

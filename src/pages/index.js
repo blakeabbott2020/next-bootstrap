@@ -1,17 +1,14 @@
-import { Card, Container, Row, Col } from "react-bootstrap";
+
+import Container from "react-bootstrap/Container";
 
 export default function Index() {
     return (
         <Container>
-            <section>
+            <section className="text-center text-md-start mb-5">
                 <h1 className="display-2">Next-Bootstrap</h1>
                 <p className="text-muted">
-                    Quickly create a project configured with Next Js and Bootstrap v5.2
+                    Quickly create a project with Next Js and Bootstrap v5.2
                 </p>
-            </section>
-
-            <section>
-
             </section>
         </Container>
     )

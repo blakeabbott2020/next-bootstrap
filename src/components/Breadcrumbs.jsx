@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import { useRouter } from 'next/router'
-import { Breadcrumb, Container } from "react-bootstrap"
+import { useRouter } from "next/router"
+import Container from "react-bootstrap/Container"
+import Breadcrumb from "react-bootstrap/Breadcrumb"
 
 export default function Breadcrumbs() {
     const router = useRouter();
