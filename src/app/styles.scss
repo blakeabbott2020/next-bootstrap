@@ -1,0 +1,115 @@
+// component variable overrides
+// --------------------------
+$body-bg: #caffe7;
+
+// color variable overrides
+// --------------------------------
+$primary: #00e07b;
+$primary-light: #00884b;
+$light: #dde6ed;
+// $secondary:
+// $success:
+// $info:
+// $warning:
+// $danger:
+// $light:
+// $dark:
+
+$card-border-radius: 0;
+
+.hero {
+	height: 100svh;
+	background: url("../../public/window-cactus.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.action-wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	padding: 2rem;
+	text-align: center;
+	box-shadow: 10px 10px 0 0 #00884b;
+	border: 2px solid #00884b;
+	margin: 10px;
+}
+
+.glow {
+	color: #fff;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px $primary, 0 0 40px $primary,
+			0 0 50px $primary, 0 0 60px $primary, 0 0 70px $primary;
+	}
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px $primary-light, 0 0 40px $primary-light,
+			0 0 50px $primary-light, 0 0 60px $primary-light, 0 0 70px $primary-light,
+			0 0 80px $primary-light;
+	}
+}
+
+$custom-colors: (
+	"blue": rgb(21, 68, 222),
+	"dragon": rgb(211, 17, 17),
+);
+
+// Configuration
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+// Configuration
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+
+// Layout & Components
+@import "../../node_modules/bootstrap/scss/accordion";
+@import "../../node_modules/bootstrap/scss/alert";
+@import "../../node_modules/bootstrap/scss/badge";
+@import "../../node_modules/bootstrap/scss/breadcrumb";
+@import "../../node_modules/bootstrap/scss/button-group";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/carousel";
+@import "../../node_modules/bootstrap/scss/close";
+@import "../../node_modules/bootstrap/scss/dropdown";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/list-group";
+@import "../../node_modules/bootstrap/scss/modal";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/offcanvas";
+@import "../../node_modules/bootstrap/scss/pagination";
+@import "../../node_modules/bootstrap/scss/popover";
+@import "../../node_modules/bootstrap/scss/progress";
+@import "../../node_modules/bootstrap/scss/spinners";
+@import "../../node_modules/bootstrap/scss/tables";
+@import "../../node_modules/bootstrap/scss/toasts";
+@import "../../node_modules/bootstrap/scss/tooltip";
+@import "../../node_modules/bootstrap/scss/transitions";
+
+// Helpers
+@import "../../node_modules/bootstrap/scss/helpers/";
+
+// Utilities
+@import "../../node_modules/bootstrap/scss/utilities/api";
